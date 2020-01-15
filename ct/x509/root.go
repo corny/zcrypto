@@ -12,6 +12,11 @@ var (
 	systemRootsErr error
 )
 
+// SystemRootsPool returns the system roots pool
+func SystemRootsPool() *CertPool {
+	return systemRootsPool()
+}
+
 func systemRootsPool() *CertPool {
 	once.Do(initSystemRoots)
 	return systemRoots
