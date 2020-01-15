@@ -12,8 +12,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/zmap/zcrypto/x509/ct"
-	"github.com/zmap/zcrypto/x509/pkix"
+	"github.com/corny/zcrypto/x509/ct"
+	"github.com/corny/zcrypto/x509/pkix"
 )
 
 var (

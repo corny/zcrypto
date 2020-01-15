@@ -17,9 +17,9 @@ import (
 	"strings"
 	"time"
 
-	jsonKeys "github.com/zmap/zcrypto/json"
-	"github.com/zmap/zcrypto/util"
-	"github.com/zmap/zcrypto/x509/pkix"
+	jsonKeys "github.com/corny/zcrypto/json"
+	"github.com/corny/zcrypto/util"
+	"github.com/corny/zcrypto/x509/pkix"
 )
 
 var kMinTime, kMaxTime time.Time

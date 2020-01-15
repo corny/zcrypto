@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zcrypto/x509/pkix"
+	"github.com/corny/zcrypto/x509"
+	"github.com/corny/zcrypto/x509/pkix"
 )
 
 // RevocationReasonCode - status codes that explain revocation reason see RFC 5280, Section 5.3.1

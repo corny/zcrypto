@@ -14,7 +14,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/zmap/zcrypto/x509"
+	"github.com/corny/zcrypto/x509"
 )
 
 // serverHandshakeState contains details of a server handshake in progress.

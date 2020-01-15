@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zmap/zcrypto/x509"
+	"github.com/corny/zcrypto/x509"
 
-	data "github.com/zmap/zcrypto/data/test/certificates"
+	data "github.com/corny/zcrypto/data/test/certificates"
 )
 
 func loadPEMs(pems []string) (out []*x509.Certificate) {

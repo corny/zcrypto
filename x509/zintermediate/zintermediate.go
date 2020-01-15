@@ -46,7 +46,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zmap/zcrypto/x509"
+	"github.com/corny/zcrypto/x509"
 
 	"github.com/op/go-logging"
 )

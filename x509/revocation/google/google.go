@@ -14,7 +14,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/zmap/zcrypto/x509"
+	"github.com/corny/zcrypto/x509"
 )
 
 // CRLSet - data structure for storing CRLSet data, used by methods below

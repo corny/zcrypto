@@ -1,4 +1,4 @@
-module github.com/zmap/zcrypto
+module github.com/corny/zcrypto
 
 require (
 	github.com/kr/pretty v0.1.0 // indirect
@@ -13,3 +13,5 @@ require (
 	golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3
 	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127
 )
+
+go 1.13
